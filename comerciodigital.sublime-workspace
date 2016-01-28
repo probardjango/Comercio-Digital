@@ -119,6 +119,25 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "C reate (crear) --añadir/guardar en la base de datos\nR etrieve (recuperar) --de la base de datos ***Querying***\nU pdate (actualizar) -- pues eso\nD elete (borrar/eliminar) --de la base de datos\n\n\nList (listar) --hacer una lista de todos los datos de la base de datos (un queryset)\nSearch (buscar) --hacer una búsqueda (parecido a 'retrieve')\n\n",
+			"file": "CRUD.txt",
+			"file_size": 349,
+			"file_write_time": 130984034182944356,
+			"settings":
+			{
+				"buffer_size": 342,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/productos/models.py",
+			"settings":
+			{
+				"buffer_size": 442,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -144,6 +163,19 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/CRUD.txt",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/admin.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/settings.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0002_producto_precio_rebajas.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0002_auto_20160127_1910.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/db.sqlite3",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0005_auto_20160124_2137.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0002_auto_20160124_2108.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0002_remove_producto_descripcion.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0001_initial.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0002_auto_20160124_2037.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/comerciodigital.sublime-workspace",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/manage.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/comerciodigital.sublime-project",
 		"/C/Users/Karlita/Desktop/dm/src/producto/models.py",
@@ -258,20 +290,7 @@
 		"/C/Users/Karlita/Desktop/project/src/newsletter/templates/home.html",
 		"/C/Users/Karlita/Desktop/project/project.sublime-project",
 		"/C/Users/Karlita/Desktop/testproject/src/testproject/settings.py",
-		"/C/Users/Karlita/Desktop/testproject/src/testproject/urls.py",
-		"/C/Users/Karlita/Desktop/testproject/src/newsletter/views.py",
-		"/C/Users/Karlita/Desktop/testproject/src/templates/home.html",
-		"/C/Users/Karlita/Desktop/testproject/src/newsletter/templates/home.html",
-		"/C/Users/Karlita/Desktop/testproject/src/newsletter/admin.py",
-		"/C/Users/Karlita/Desktop/testproject/src/testproject/__init__.py",
-		"/C/Users/Karlita/Desktop/trydjango18/src/templates/home.html",
-		"/C/Users/Karlita/Desktop/trydjango18/src/templates/forms.html",
-		"/C/Users/Karlita/Desktop/trydjango18/src/templates/base.html",
-		"/C/Users/Karlita/Desktop/trydjango18/src/templates/example_fluid.html",
-		"/C/Users/Karlita/Desktop/trydjango18/src/newsletter/views.py",
-		"/C/Users/Karlita/Desktop/trydjango18/src/trydjango18/urls.py",
-		"/C/Users/Karlita/Desktop/trydjango18/src/templates/navbar.html",
-		"/C/Users/Karlita/Desktop/trydjango18/src/trydjango18/views.py"
+		"/C/Users/Karlita/Desktop/testproject/src/testproject/urls.py"
 	],
 	"find":
 	{
@@ -310,8 +329,61 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "CRUD.txt",
+					"settings":
+					{
+						"buffer_size": 342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/productos/models.py",
+					"settings":
+					{
+						"buffer_size": 442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -375,6 +447,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 158.0,
+	"side_bar_width": 195.0,
 	"status_bar_visible": true
 }
