@@ -120,21 +120,21 @@
 	"buffers":
 	[
 		{
-			"contents": "C reate (crear) --añadir/guardar en la base de datos\nR etrieve (recuperar) --de la base de datos ***Querying***\nU pdate (actualizar) -- pues eso\nD elete (borrar/eliminar) --de la base de datos\n\n\nList (listar) --hacer una lista de todos los datos de la base de datos (un queryset)\nSearch (buscar) --hacer una búsqueda (parecido a 'retrieve')\n\n",
+			"contents": "C reate (crear) --añadir/guardar en la base de datos\nR etrieve (recuperar) --de la base de datos ***Querying***  DETAIL_VIEW\nU pdate (actualizar) -- pues eso\nD elete (borrar/eliminar) --de la base de datos\n\n\nList (listar) --hacer una lista de todos los datos de la base de datos (un queryset) LIST_VIEW\nSearch (buscar) --hacer una búsqueda (parecido a 'retrieve')\n\n",
 			"file": "CRUD.txt",
-			"file_size": 349,
-			"file_write_time": 130984034182944356,
+			"file_size": 376,
+			"file_write_time": 130984716798448566,
 			"settings":
 			{
-				"buffer_size": 342,
+				"buffer_size": 365,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/productos/models.py",
+			"file": "src/productos/views.py",
 			"settings":
 			{
-				"buffer_size": 442,
+				"buffer_size": 348,
 				"line_ending": "Unix"
 			}
 		}
@@ -163,8 +163,9 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/CRUD.txt",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/views.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/CRUD.txt",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/admin.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/settings.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0002_producto_precio_rebajas.py",
@@ -289,8 +290,7 @@
 		"/C/Users/Karlita/Desktop/project/src/newsletter/models.py",
 		"/C/Users/Karlita/Desktop/project/src/newsletter/templates/home.html",
 		"/C/Users/Karlita/Desktop/project/project.sublime-project",
-		"/C/Users/Karlita/Desktop/testproject/src/testproject/settings.py",
-		"/C/Users/Karlita/Desktop/testproject/src/testproject/urls.py"
+		"/C/Users/Karlita/Desktop/testproject/src/testproject/settings.py"
 	],
 	"find":
 	{
@@ -337,15 +337,15 @@
 					"file": "CRUD.txt",
 					"settings":
 					{
-						"buffer_size": 342,
+						"buffer_size": 365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								342,
-								342
+								302,
+								302
 							]
 						],
 						"settings":
@@ -360,26 +360,27 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/productos/models.py",
+					"file": "src/productos/views.py",
 					"settings":
 					{
-						"buffer_size": 442,
+						"buffer_size": 348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								442,
-								442
+								131,
+								131
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 15.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
