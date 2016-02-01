@@ -137,6 +137,38 @@
 				"buffer_size": 348,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "src/templates/list_view.html",
+			"settings":
+			{
+				"buffer_size": 68,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/detail_view.html",
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/comerciodigital/urls.py",
+			"settings":
+			{
+				"buffer_size": 405,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/comerciodigital/settings.py",
+			"settings":
+			{
+				"buffer_size": 2734,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -163,11 +195,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/settings.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/detail_view.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/templates/detail_view.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/views.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/CRUD.txt",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/admin.py",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/settings.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0002_producto_precio_rebajas.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0002_auto_20160127_1910.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/db.sqlite3",
@@ -287,10 +322,7 @@
 		"/C/Users/Karlita/Desktop/project/src/templates/home.html",
 		"/C/Users/Karlita/Desktop/project/src/project/urls.py",
 		"/C/Users/Karlita/Desktop/project/src/project/settings.py",
-		"/C/Users/Karlita/Desktop/project/src/newsletter/models.py",
-		"/C/Users/Karlita/Desktop/project/src/newsletter/templates/home.html",
-		"/C/Users/Karlita/Desktop/project/project.sublime-project",
-		"/C/Users/Karlita/Desktop/testproject/src/testproject/settings.py"
+		"/C/Users/Karlita/Desktop/project/src/newsletter/models.py"
 	],
 	"find":
 	{
@@ -329,7 +361,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -370,8 +402,8 @@
 						"selection":
 						[
 							[
-								131,
-								131
+								203,
+								203
 							]
 						],
 						"settings":
@@ -380,7 +412,113 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 15.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/list_view.html",
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/detail_view.html",
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/comerciodigital/urls.py",
+					"settings":
+					{
+						"buffer_size": 405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								405,
+								405
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/comerciodigital/settings.py",
+					"settings":
+					{
+						"buffer_size": 2734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1641,
+								1641
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 914.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
