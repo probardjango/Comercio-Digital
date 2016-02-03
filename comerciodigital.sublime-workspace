@@ -150,7 +150,15 @@
 			"file": "src/templates/detail_view.html",
 			"settings":
 			{
-				"buffer_size": 70,
+				"buffer_size": 112,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 126,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,6 +203,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/base.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/settings.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/detail_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/templates/detail_view.html",
@@ -321,8 +330,7 @@
 		"/C/Users/Karlita/Desktop/project/src/newsletter/tests.py",
 		"/C/Users/Karlita/Desktop/project/src/templates/home.html",
 		"/C/Users/Karlita/Desktop/project/src/project/urls.py",
-		"/C/Users/Karlita/Desktop/project/src/project/settings.py",
-		"/C/Users/Karlita/Desktop/project/src/newsletter/models.py"
+		"/C/Users/Karlita/Desktop/project/src/project/settings.py"
 	],
 	"find":
 	{
@@ -361,7 +369,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -402,8 +410,8 @@
 						"selection":
 						[
 							[
-								203,
-								203
+								35,
+								35
 							]
 						],
 						"settings":
@@ -429,8 +437,8 @@
 						"selection":
 						[
 							[
-								40,
-								40
+								68,
+								68
 							]
 						],
 						"settings":
@@ -448,14 +456,14 @@
 					"file": "src/templates/detail_view.html",
 					"settings":
 					{
-						"buffer_size": 70,
+						"buffer_size": 112,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								70,
+								25,
 								0
 							]
 						],
@@ -471,6 +479,32 @@
 				},
 				{
 					"buffer": 4,
+					"file": "src/templates/base.html",
+					"settings":
+					{
+						"buffer_size": 126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "src/comerciodigital/urls.py",
 					"settings":
 					{
@@ -496,7 +530,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "src/comerciodigital/settings.py",
 					"settings":
 					{

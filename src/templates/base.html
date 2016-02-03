@@ -3,6 +3,17 @@
 <head></head>
 
 <body>
+
+	<style>
+	h1 {
+		color: red;
+	}
+
+	{% block style %}
+	{% endblock style %}
+	
+	</style>
+
 	{% block content %}
 	<p>Esto es muy chulo!</p>
 	{% endblock %}
