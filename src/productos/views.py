@@ -1,17 +1,29 @@
 from django.shortcuts import render
 
 # Create your views here.
+from .models import Producto
 
 def detail_view(request):
 	#1 objeto
-	template = "detail_view.html"
-	context = {}
-	print request
+	if request.user.is_authenticated():
+		template = "detail_view.html"
+		producto = Producto.objects.all().first()
+		context = {
+			"titulo": "Detail View",
+			"producto": producto
+		}
+	else :
+		template = "no_encontrado.html"
+		context = {}
+
 	return render(request, template, context)
 
 def list_view(request):
 	#lista de objetos
 	template = "list_view.html"
-	context = {}
+	queryset = Producto.objects.all()
+	context = {
+		"queryset": queryset
+	}
 	print request
 	return render(request, template, context)

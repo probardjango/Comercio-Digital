@@ -120,29 +120,10 @@
 	"buffers":
 	[
 		{
-			"contents": "C reate (crear) --añadir/guardar en la base de datos\nR etrieve (recuperar) --de la base de datos ***Querying***  DETAIL_VIEW\nU pdate (actualizar) -- pues eso\nD elete (borrar/eliminar) --de la base de datos\n\n\nList (listar) --hacer una lista de todos los datos de la base de datos (un queryset) LIST_VIEW\nSearch (buscar) --hacer una búsqueda (parecido a 'retrieve')\n\n",
-			"file": "CRUD.txt",
-			"file_size": 376,
-			"file_write_time": 130984716798448566,
-			"settings":
-			{
-				"buffer_size": 365,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/productos/views.py",
-			"settings":
-			{
-				"buffer_size": 348,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/templates/list_view.html",
 			"settings":
 			{
-				"buffer_size": 68,
+				"buffer_size": 165,
 				"line_ending": "Windows"
 			}
 		},
@@ -150,7 +131,7 @@
 			"file": "src/templates/detail_view.html",
 			"settings":
 			{
-				"buffer_size": 112,
+				"buffer_size": 103,
 				"line_ending": "Windows"
 			}
 		},
@@ -158,23 +139,15 @@
 			"file": "src/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 126,
+				"buffer_size": 214,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/comerciodigital/urls.py",
+			"file": "src/productos/views.py",
 			"settings":
 			{
-				"buffer_size": 405,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/comerciodigital/settings.py",
-			"settings":
-			{
-				"buffer_size": 2734,
+				"buffer_size": 618,
 				"line_ending": "Unix"
 			}
 		}
@@ -203,12 +176,13 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/base.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/views.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/settings.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/CRUD.txt",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/base.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/detail_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/templates/detail_view.html",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/views.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/CRUD.txt",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/admin.py",
@@ -329,8 +303,7 @@
 		"/C/Users/Karlita/Desktop/project/src/newsletter/views.py",
 		"/C/Users/Karlita/Desktop/project/src/newsletter/tests.py",
 		"/C/Users/Karlita/Desktop/project/src/templates/home.html",
-		"/C/Users/Karlita/Desktop/project/src/project/urls.py",
-		"/C/Users/Karlita/Desktop/project/src/project/settings.py"
+		"/C/Users/Karlita/Desktop/project/src/project/urls.py"
 	],
 	"find":
 	{
@@ -374,23 +347,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "CRUD.txt",
+					"file": "src/templates/list_view.html",
 					"settings":
 					{
-						"buffer_size": 365,
+						"buffer_size": 165,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								302
+								149,
+								149
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -400,24 +373,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/productos/views.py",
+					"file": "src/templates/detail_view.html",
 					"settings":
 					{
-						"buffer_size": 348,
+						"buffer_size": 103,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								103,
+								103
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -427,18 +399,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/templates/list_view.html",
+					"file": "src/templates/base.html",
 					"settings":
 					{
-						"buffer_size": 68,
+						"buffer_size": 214,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								68
+								214,
+								214
 							]
 						],
 						"settings":
@@ -453,106 +425,27 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/templates/detail_view.html",
+					"file": "src/productos/views.py",
 					"settings":
 					{
-						"buffer_size": 112,
+						"buffer_size": 618,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/templates/base.html",
-					"settings":
-					{
-						"buffer_size": 126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/comerciodigital/urls.py",
-					"settings":
-					{
-						"buffer_size": 405,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								405,
-								405
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/comerciodigital/settings.py",
-					"settings":
-					{
-						"buffer_size": 2734,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1641,
-								1641
+								198,
+								198
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 914.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
