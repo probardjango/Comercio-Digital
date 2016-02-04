@@ -1,25 +1,26 @@
 from django.http import Http404
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
 from .models import Producto
 
 def detail_view(request, objeto_id=None):
-	if objeto_id is not None:
-		try:
-			producto = Producto.objects.get(id=objeto_id)
+	producto = get_object_or_404(Producto, id=objeto_id)
+	template = "detail_view.html"
+	context = {
+		"titulo": "Detail View",
+		"objeto": producto
+		}
+	return render(request, template, context)
 
-		except Producto.DoesNotExist:
-			producto = None
 
-		template = "detail_view.html"
-		context = {
-			"titulo": "Detail View",
-			"objeto": producto
-			}
+	# 	try:
+	# 		producto = Producto.objects.get(id=objeto_id)
 
-	else:
-		raise Http404
+	# 	except Producto.DoesNotExist:
+	# 		producto = None
+	# else:
+	# 	raise Http404
 	#1 objeto
 	# if request.user.is_authenticated():
 
@@ -27,7 +28,7 @@ def detail_view(request, objeto_id=None):
 	# 	template = "no_encontrado.html"
 	# 	context = {}
 
-	return render(request, template, context)
+
 
 def list_view(request):
 	#lista de objetos
