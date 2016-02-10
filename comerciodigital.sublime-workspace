@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"producto_post_save_receptor"
+			],
+			[
+				"pro",
+				"producto_pre_save_receptor"
+			],
+			[
 				"a",
 				"AdminRegistrado"
 			],
@@ -120,34 +128,42 @@
 	"buffers":
 	[
 		{
-			"file": "src/templates/list_view.html",
-			"settings":
-			{
-				"buffer_size": 165,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/detail_view.html",
-			"settings":
-			{
-				"buffer_size": 103,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/base.html",
-			"settings":
-			{
-				"buffer_size": 214,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/productos/views.py",
 			"settings":
 			{
-				"buffer_size": 618,
+				"buffer_size": 1572,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/create_view.html",
+			"settings":
+			{
+				"buffer_size": 167,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/productos/forms.py",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/comerciodigital/urls.py",
+			"settings":
+			{
+				"buffer_size": 598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/productos/models.py",
+			"settings":
+			{
+				"buffer_size": 1035,
 				"line_ending": "Unix"
 			}
 		}
@@ -176,14 +192,16 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/views.py",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/settings.py",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
-		"/C/Users/Karlita/Desktop/comerciodigital/CRUD.txt",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/base.html",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/detail_view.html",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/templates/detail_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/detail_view.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/views.py",
+		"/C/Users/Karlita/Desktop/detail_view_master.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/list_view.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/base.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/settings.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/CRUD.txt",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/templates/detail_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/CRUD.txt",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/admin.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/migrations/0002_producto_precio_rebajas.py",
@@ -301,9 +319,7 @@
 		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/img/ejemplo.txt",
 		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/ejemplo.txt",
 		"/C/Users/Karlita/Desktop/project/src/newsletter/views.py",
-		"/C/Users/Karlita/Desktop/project/src/newsletter/tests.py",
-		"/C/Users/Karlita/Desktop/project/src/templates/home.html",
-		"/C/Users/Karlita/Desktop/project/src/project/urls.py"
+		"/C/Users/Karlita/Desktop/project/src/newsletter/tests.py"
 	],
 	"find":
 	{
@@ -342,28 +358,29 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/templates/list_view.html",
+					"file": "src/productos/views.py",
 					"settings":
 					{
-						"buffer_size": 165,
+						"buffer_size": 1572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								149,
-								149
+								278,
+								278
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -373,18 +390,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/templates/detail_view.html",
+					"file": "src/templates/create_view.html",
 					"settings":
 					{
-						"buffer_size": 103,
+						"buffer_size": 167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								103
+								95,
+								95
 							]
 						],
 						"settings":
@@ -399,24 +416,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/templates/base.html",
+					"file": "src/productos/forms.py",
 					"settings":
 					{
-						"buffer_size": 214,
+						"buffer_size": 153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								214,
-								214
+								153,
+								153
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -426,27 +442,52 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/productos/views.py",
+					"file": "src/comerciodigital/urls.py",
 					"settings":
 					{
-						"buffer_size": 618,
+						"buffer_size": 598,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								198,
-								198
+								260,
+								260
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/productos/models.py",
+					"settings":
+					{
+						"buffer_size": 1035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -514,6 +555,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 195.0,
+	"side_bar_width": 267.0,
 	"status_bar_visible": true
 }
