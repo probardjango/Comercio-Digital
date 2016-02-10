@@ -6,8 +6,17 @@ ESTADO_DE_PRODUCTO = (
 	)
 
 class ProductoForm(forms.Form):
-	titulo = forms.CharField()
-	descripcion = forms.CharField(widget=forms.Textarea)
+	titulo = forms.CharField(label= "Titulo de Producto en Venta", widget=forms.TextInput(
+		attrs={
+			"class": "other-custom-class",
+			"placeholder": "Titulo",
+	}))
+	descripcion = forms.CharField(widget=forms.Textarea(
+		attrs={
+			"class": "custom-class",
+			"placeholder": "Escribir una descripcion de tu producto aqui",
+	}))
+
 	precio = forms.DecimalField()
 	estado = forms.ChoiceField(widget= forms.RadioSelect, choices=ESTADO_DE_PRODUCTO, required=False)
 
