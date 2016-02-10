@@ -1,10 +1,15 @@
 from django import forms
 
+ESTADO_DE_PRODUCTO = (
+	('nuevo', 'Nuevo'),
+	('segunda mano', 'Segunda mano'),
+	)
 
 class ProductoForm(forms.Form):
 	titulo = forms.CharField()
-	descripcion = forms.CharField()
+	descripcion = forms.CharField(widget=forms.Textarea)
 	precio = forms.DecimalField()
+	estado = forms.ChoiceField(widget= forms.RadioSelect, choices=ESTADO_DE_PRODUCTO, required=False)
 
 
 	def clean_precio(self):
