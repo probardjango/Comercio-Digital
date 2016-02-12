@@ -2,25 +2,20 @@ from django.http import Http404
 from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
-from .forms import ProductoForm
+from .forms import ProductoForm, ProductoModelForm
 from .models import Producto
 
 def create_view(request):
 	#FORMulario
-	form = ProductoForm(request.POST or None)
+	form = ProductoModelForm(request.POST or None)
 	if form.is_valid():
-		data = form.cleaned_data
-		titulo = data.get("titulo")
-		descripcion = data.get("descripcion")
-		precio = data.get("precio")
+		print form.cleaned_data.get("estado")
+		instance = form.save(commit=False)
+		#codigo
+		#instrucciones
+		instance.precio_rebajas = instance.precio
+		instance.save()
 
-		obj_nuevo = Producto.objects.create(titulo=titulo, descripcion=descripcion, precio=precio)
-
-		# obj_nuevo = Producto()
-		# obj_nuevo.titulo = titulo
-		# obj_nuevo.descripcion = descripcion
-		# obj_nuevo.precio = precio
-		# obj_nuevo.save()
 
 	template = "create_view.html"
 	context = {
