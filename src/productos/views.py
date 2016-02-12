@@ -33,6 +33,22 @@ def detail_view(request, objeto_id=None):
 	print objeto_id
 	return render(request, template, context)
 
+def update_view(request, objeto_id=None):
+	producto = get_object_or_404(Producto, id=objeto_id)
+	form = ProductoModelForm(request.POST or None, instance=producto)
+	if form.is_valid():
+		instance = form.save(commit=False)
+		instance.save()
+		
+	template = "update_view.html"
+	context = {
+		"objeto": producto,
+		"form": form,
+		}
+	return render(request, template, context)
+
+
+
 def slug_detail_view(request, slug=None):
 	try:
 		producto = get_object_or_404(Producto, slug=slug)

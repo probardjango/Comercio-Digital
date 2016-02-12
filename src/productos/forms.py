@@ -13,7 +13,7 @@ class ProductoModelForm(forms.ModelForm):
 		attrs={
 			"placeholder": "Escribir una descripcion de tu producto aqui",
 	}))
-
+	
 	class Meta: 
 		model = Producto
 		fields = ["titulo", "descripcion", "precio"]

@@ -131,24 +131,32 @@
 			"file": "src/productos/views.py",
 			"settings":
 			{
-				"buffer_size": 1393,
+				"buffer_size": 1767,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/productos/forms.py",
+			"file": "src/templates/update_view.html",
 			"settings":
 			{
-				"buffer_size": 2064,
+				"buffer_size": 186,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/productos/models.py",
+			"file": "src/comerciodigital/urls.py",
 			"settings":
 			{
-				"buffer_size": 1035,
+				"buffer_size": 696,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/detail_view.html",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -176,9 +184,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/forms.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/update_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/create_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/create_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/detail_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/views.py",
 		"/C/Users/Karlita/Desktop/detail_view_master.py",
@@ -301,9 +311,7 @@
 		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/css/custom_css",
 		"/C/Users/Karlita/Desktop/kk/src/templates/ex_fluid.html",
 		"/C/Users/Karlita/Desktop/kk/src/templates/javascript.html",
-		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/img/ejemplo.txt",
-		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/ejemplo.txt",
-		"/C/Users/Karlita/Desktop/project/src/newsletter/views.py"
+		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/img/ejemplo.txt"
 	],
 	"find":
 	{
@@ -350,21 +358,47 @@
 					"file": "src/productos/views.py",
 					"settings":
 					{
-						"buffer_size": 1393,
+						"buffer_size": 1767,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								340,
-								340
+								1068,
+								1068
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/templates/update_view.html",
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -373,46 +407,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "src/productos/forms.py",
-					"settings":
-					{
-						"buffer_size": 2064,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								414,
-								414
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 59.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "src/productos/models.py",
+					"file": "src/comerciodigital/urls.py",
 					"settings":
 					{
-						"buffer_size": 1035,
+						"buffer_size": 696,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								487,
-								476
+								424,
+								424
 							]
 						],
 						"settings":
@@ -420,7 +427,33 @@
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 21.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/detail_view.html",
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
