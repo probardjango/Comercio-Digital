@@ -131,7 +131,7 @@
 			"file": "src/productos/views.py",
 			"settings":
 			{
-				"buffer_size": 1767,
+				"buffer_size": 1829,
 				"line_ending": "Unix"
 			}
 		},
@@ -139,16 +139,16 @@
 			"file": "src/templates/update_view.html",
 			"settings":
 			{
-				"buffer_size": 186,
+				"buffer_size": 145,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/comerciodigital/urls.py",
+			"file": "src/templates/form_include.html",
 			"settings":
 			{
-				"buffer_size": 696,
-				"line_ending": "Unix"
+				"buffer_size": 121,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -156,6 +156,22 @@
 			"settings":
 			{
 				"buffer_size": 160,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/create_view.html",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/form.html",
+			"settings":
+			{
+				"buffer_size": 134,
 				"line_ending": "Windows"
 			}
 		}
@@ -184,9 +200,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/forms.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/update_view.html",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/create_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/detail_view.html",
@@ -350,7 +366,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -358,15 +374,15 @@
 					"file": "src/productos/views.py",
 					"settings":
 					{
-						"buffer_size": 1767,
+						"buffer_size": 1829,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1068,
-								1068
+								450,
+								450
 							]
 						],
 						"settings":
@@ -375,7 +391,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 486.0,
+						"translation.y": 49.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -385,15 +401,15 @@
 					"file": "src/templates/update_view.html",
 					"settings":
 					{
-						"buffer_size": 186,
+						"buffer_size": 145,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								186,
-								186
+								129,
+								48
 							]
 						],
 						"settings":
@@ -408,23 +424,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/comerciodigital/urls.py",
+					"file": "src/templates/form_include.html",
 					"settings":
 					{
-						"buffer_size": 696,
+						"buffer_size": 121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								424,
-								424
+								107,
+								107
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -446,6 +462,58 @@
 							[
 								140,
 								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/templates/create_view.html",
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/form.html",
+					"settings":
+					{
+						"buffer_size": 134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
 							]
 						],
 						"settings":
