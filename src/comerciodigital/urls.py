@@ -1,6 +1,8 @@
 from django.conf.urls import include, url
 from django.contrib import admin
 
+from productos.views import ProductoListView
+
 urlpatterns = [
     # Examples:
     # url(r'^$', 'comerciodigital.views.home', name='home'),
@@ -12,5 +14,6 @@ urlpatterns = [
     url(r'^detail/(?P<objeto_id>\d+)$', 'productos.views.detail_view', name='detail_view'),
     url(r'^detail/(?P<slug>[\w-]+)$', 'productos.views.slug_detail_view', name='slug_detail_view'),
     url(r'^list/$', 'productos.views.list_view', name='list_view'),
+    url(r'^producto/list/$', ProductoListView.as_view(), name='producto_list_view'),
 ]
 
