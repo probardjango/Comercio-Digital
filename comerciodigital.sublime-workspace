@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"get_object"
+			],
+			[
 				"Produ",
 				"ProductoDetailView"
 			],
@@ -143,7 +147,7 @@
 			"file": "src/productos/views.py",
 			"settings":
 			{
-				"buffer_size": 2345,
+				"buffer_size": 2844,
 				"line_ending": "Windows"
 			}
 		},
@@ -151,7 +155,15 @@
 			"file": "src/comerciodigital/urls.py",
 			"settings":
 			{
-				"buffer_size": 828,
+				"buffer_size": 1051,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/productos/producto_detail.html",
+			"settings":
+			{
+				"buffer_size": 160,
 				"line_ending": "Windows"
 			}
 		}
@@ -354,15 +366,15 @@
 					"file": "src/productos/views.py",
 					"settings":
 					{
-						"buffer_size": 2345,
+						"buffer_size": 2844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								250,
-								250
+								322,
+								322
 							]
 						],
 						"settings":
@@ -381,15 +393,15 @@
 					"file": "src/comerciodigital/urls.py",
 					"settings":
 					{
-						"buffer_size": 828,
+						"buffer_size": 1051,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								824,
-								824
+								1047,
+								863
 							]
 						],
 						"settings":
@@ -397,6 +409,32 @@
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/productos/producto_detail.html",
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
