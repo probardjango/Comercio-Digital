@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Produ",
+				"ProductoDetailView"
+			],
+			[
+				"Producto",
+				"ProductoListView"
+			],
+			[
+				"get_",
+				"get_queryset"
+			],
+			[
 				"p",
 				"producto_post_save_receptor"
 			],
@@ -131,47 +143,15 @@
 			"file": "src/productos/views.py",
 			"settings":
 			{
-				"buffer_size": 1829,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/update_view.html",
-			"settings":
-			{
-				"buffer_size": 145,
+				"buffer_size": 2345,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/templates/form_include.html",
+			"file": "src/comerciodigital/urls.py",
 			"settings":
 			{
-				"buffer_size": 121,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/detail_view.html",
-			"settings":
-			{
-				"buffer_size": 160,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/create_view.html",
-			"settings":
-			{
-				"buffer_size": 146,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/form.html",
-			"settings":
-			{
-				"buffer_size": 134,
+				"buffer_size": 828,
 				"line_ending": "Windows"
 			}
 		}
@@ -200,12 +180,17 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/productos/producto_detail.html",
+		"/C/Users/Karlita/Desktop/scraping.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/productos/producto_list.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/detail_view.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/form.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/create_view.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/update_view.html",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/form_include.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/forms.py",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/update_view.html",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/create_view.html",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/detail_view.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/views.py",
 		"/C/Users/Karlita/Desktop/detail_view_master.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/list_view.html",
@@ -322,12 +307,7 @@
 		"/C/Users/Karlita/Desktop/kk/src/kk/wsgi.py",
 		"/C/Users/Karlita/Desktop/kk/src/templates/about.html",
 		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/css/custom.css",
-		"/C/Users/Karlita/Desktop/kk/src/templates/head_css.html",
-		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/css/custom_css.css",
-		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/css/custom_css",
-		"/C/Users/Karlita/Desktop/kk/src/templates/ex_fluid.html",
-		"/C/Users/Karlita/Desktop/kk/src/templates/javascript.html",
-		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/img/ejemplo.txt"
+		"/C/Users/Karlita/Desktop/kk/src/templates/head_css.html"
 	],
 	"find":
 	{
@@ -374,15 +354,15 @@
 					"file": "src/productos/views.py",
 					"settings":
 					{
-						"buffer_size": 1829,
+						"buffer_size": 2345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								450,
-								450
+								250,
+								250
 							]
 						],
 						"settings":
@@ -391,134 +371,32 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 49.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/templates/update_view.html",
+					"file": "src/comerciodigital/urls.py",
 					"settings":
 					{
-						"buffer_size": 145,
+						"buffer_size": 828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								129,
-								48
+								824,
+								824
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/templates/form_include.html",
-					"settings":
-					{
-						"buffer_size": 121,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								107
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/templates/detail_view.html",
-					"settings":
-					{
-						"buffer_size": 160,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								140,
-								140
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/templates/create_view.html",
-					"settings":
-					{
-						"buffer_size": 146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/templates/form.html",
-					"settings":
-					{
-						"buffer_size": 134,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								118,
-								118
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -589,6 +467,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 267.0,
+	"side_bar_width": 207.0,
 	"status_bar_visible": true
 }

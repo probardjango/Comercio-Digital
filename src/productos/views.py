@@ -1,8 +1,13 @@
 from django.http import Http404
 from django.shortcuts import render, get_object_or_404
+from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 from .forms import ProductoForm, ProductoModelForm
 from .models import Producto
+
+class ProductoDetailView(DetailView):
+	model = Producto
+
 
 class ProductoListView(ListView):
 	model = Producto
@@ -66,6 +71,7 @@ def update_view(request, objeto_id=None):
 
 
 def slug_detail_view(request, slug=None):
+	producto = Producto.objects.get(slug=slug)
 	try:
 		producto = get_object_or_404(Producto, slug=slug)
 	except Producto.MultipleObjectsReturned:
