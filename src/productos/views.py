@@ -1,13 +1,27 @@
 from django.http import Http404
 from django.shortcuts import render, get_object_or_404
+from django.views.generic.edit import CreateView, UpdateView
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 
-from comerciodigital.mixins import MultiSlugMixin
+from comerciodigital.mixins import MultiSlugMixin, SubmitBtnMixin
 
 from .forms import ProductoForm, ProductoModelForm
 from .models import Producto
 
+class ProductoCreateView(SubmitBtnMixin, CreateView):
+	model = Producto 
+	form_class = ProductoModelForm
+	template_name = "form.html"
+	success_url = "/productos/crear/"
+	submit_btn = "Crear Producto"
+
+class ProductoUpdateView(SubmitBtnMixin, MultiSlugMixin, UpdateView):
+	model = Producto 
+	form_class = ProductoModelForm
+	template_name = "form.html"
+	success_url = "/productos/"
+	submit_btn = "Actualizar Producto"
 
 class ProductoDetailView(MultiSlugMixin, DetailView):
 	model = Producto
@@ -15,10 +29,10 @@ class ProductoDetailView(MultiSlugMixin, DetailView):
 class ProductoListView(ListView):
 	model = Producto
 
-
 	def get_queryset(self, *args, **kwargs):
 		qs = super(ProductoListView, self).get_queryset(**kwargs)
 		return qs
+
 
 def create_view(request):
 	#FORMulario
