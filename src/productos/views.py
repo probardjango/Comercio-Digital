@@ -2,37 +2,22 @@ from django.http import Http404
 from django.shortcuts import render, get_object_or_404
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
+
+from comerciodigital.mixins import MultiSlugMixin
+
 from .forms import ProductoForm, ProductoModelForm
 from .models import Producto
 
-class ProductoDetailView(DetailView):
-	model = Producto
 
-	def get_object(self, *args, **kwargs):
-		slug = self.kwargs.get("slug")
-		ModelClass = self.model
-		if slug is not None:
-			try:
-				obj = get_object_or_404(ModelClass, slug=slug)
-			except ModelClass.MultipleObjectsReturned:
-				obj = ModelClass.objects.filter(slug=slug).order_by("titulo").first()
-		else:
-			obj = super(ProductoDetailView, self).get_object(*args, **kwargs)
-		return obj 
+class ProductoDetailView(MultiSlugMixin, DetailView):
+	model = Producto
 
 class ProductoListView(ListView):
 	model = Producto
-	# template_name = "list_view.html"
 
-	# def get_context_data(self, **kwargs):
-	# 	context = super(ProductoListView, self).get_context_data(**kwargs)
-	# 	print context
-	# 	context["queryset"] = self.get_queryset()
-	# 	return context
 
 	def get_queryset(self, *args, **kwargs):
 		qs = super(ProductoListView, self).get_queryset(**kwargs)
-		# qs = qs.filter(titulo__icontains="sandwhich")
 		return qs
 
 def create_view(request):
