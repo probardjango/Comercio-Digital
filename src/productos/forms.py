@@ -1,5 +1,5 @@
 from django import forms
-
+from django.utils.text import slugify
 from .models import Producto
 
 ESTADO_DE_PRODUCTO = (
@@ -24,6 +24,15 @@ class ProductoModelForm(forms.ModelForm):
 		# 		}
 		# 	)
 		# }
+
+	def clean(self, *args, **kwargs):
+		cleaned_data = super(ProductoModelForm, self).clean(*args, **kwargs)
+		# titulo = cleaned_data.get("titulo")
+		# slug = slugify(titulo)
+		# qs = Producto.objects.filter(slug=slug).exists()
+		# if qs:
+		# 	raise forms.ValidationError("Titulo no disponible, escoge otro por favor.")
+		return cleaned_data
 
 	def clean_precio(self):
 		precio = self.cleaned_data.get("precio")

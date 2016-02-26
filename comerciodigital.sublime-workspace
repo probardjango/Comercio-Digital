@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"Prod",
+				"ProductoUpdateView"
+			],
+			[
 				"get",
-				"get_object"
+				"get_context_data"
+			],
+			[
+				"Produc",
+				"ProductoCreateView"
+			],
+			[
+				"Mul",
+				"MultiSlugMixin"
 			],
 			[
 				"Produ",
@@ -147,7 +159,15 @@
 			"file": "src/productos/views.py",
 			"settings":
 			{
-				"buffer_size": 2844,
+				"buffer_size": 2732,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/comerciodigital/mixins.py",
+			"settings":
+			{
+				"buffer_size": 711,
 				"line_ending": "Windows"
 			}
 		},
@@ -155,15 +175,15 @@
 			"file": "src/comerciodigital/urls.py",
 			"settings":
 			{
-				"buffer_size": 1051,
+				"buffer_size": 1425,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/templates/productos/producto_detail.html",
+			"file": "src/templates/form_include.html",
 			"settings":
 			{
-				"buffer_size": 160,
+				"buffer_size": 166,
 				"line_ending": "Windows"
 			}
 		}
@@ -192,6 +212,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Karlita/Desktop/comerciodigital/README.md",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/productos/producto_detail.html",
 		"/C/Users/Karlita/Desktop/scraping.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/productos/producto_list.html",
@@ -318,8 +339,7 @@
 		"/C/Users/Karlita/Desktop/kk/src/kk/views.py",
 		"/C/Users/Karlita/Desktop/kk/src/kk/wsgi.py",
 		"/C/Users/Karlita/Desktop/kk/src/templates/about.html",
-		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/css/custom.css",
-		"/C/Users/Karlita/Desktop/kk/src/templates/head_css.html"
+		"/C/Users/Karlita/Desktop/kk/src/static_in_pro/our_static/css/custom.css"
 	],
 	"find":
 	{
@@ -358,7 +378,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -366,15 +386,42 @@
 					"file": "src/productos/views.py",
 					"settings":
 					{
-						"buffer_size": 2844,
+						"buffer_size": 2732,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								322,
-								322
+								810,
+								810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/comerciodigital/mixins.py",
+					"settings":
+					{
+						"buffer_size": 711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
 							]
 						],
 						"settings":
@@ -389,19 +436,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "src/comerciodigital/urls.py",
 					"settings":
 					{
-						"buffer_size": 1051,
+						"buffer_size": 1425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1047,
-								863
+								207,
+								207
 							]
 						],
 						"settings":
@@ -417,19 +464,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/templates/productos/producto_detail.html",
+					"buffer": 3,
+					"file": "src/templates/form_include.html",
 					"settings":
 					{
-						"buffer_size": 160,
+						"buffer_size": 166,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								130
+								154,
+								154
 							]
 						],
 						"settings":
@@ -505,6 +552,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 207.0,
+	"side_bar_width": 241.0,
 	"status_bar_visible": true
 }

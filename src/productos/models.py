@@ -7,7 +7,7 @@ from django.utils.text import slugify
 class Producto(models.Model):
 	titulo = models.CharField(max_length=120)
 	descripcion = models.TextField(null=True)
-	slug = models.SlugField(blank=True) #unique=True
+	slug = models.SlugField(blank=True, unique=True) 
 	precio = models.DecimalField(max_digits=50, decimal_places=2, default=9.99) #100.00
 	precio_rebajas = models.DecimalField(max_digits=50, decimal_places=2, default=6.99, blank=True, null=True) #100.00
 
@@ -15,9 +15,20 @@ class Producto(models.Model):
 	def __unicode__(self): #Python 3 __str__
 		return self.titulo
 
+def create_slug(instance, new_slug=None):
+	slug = slugify(instance.titulo)
+	if new_slug is not None:
+		slug = new_slug
+	qs = Producto.objects.filter(slug=slug)
+	exists = qs.exists()
+	if exists:
+		new_slug = "%s-%s" %(slug, qs.first().id)
+		return create_slug(instance, new_slug=new_slug)
+	return slug
+
 def producto_pre_save_receptor(sender, instance, *args, **kwargs):
 	if not instance.slug:
-		instance.slug = slugify(instance.titulo)
+		instance.slug = create_slug(instance)
 
 pre_save.connect(producto_pre_save_receptor, sender=Producto)
 
