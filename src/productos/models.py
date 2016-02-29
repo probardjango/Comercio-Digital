@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 from django.db.models.signals import pre_save, post_save
 from django.utils.text import slugify
@@ -5,6 +6,9 @@ from django.utils.text import slugify
 
 
 class Producto(models.Model):
+	usuario = models.ForeignKey(settings.AUTH_USER_MODEL)
+	managers = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name="managers_productos", blank=True)
+	#user = models.OneToOneField(settings.AUTH_USER_MODEL)
 	titulo = models.CharField(max_length=120)
 	descripcion = models.TextField(null=True)
 	slug = models.SlugField(blank=True, unique=True) 
