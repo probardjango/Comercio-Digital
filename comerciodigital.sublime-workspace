@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"Produ",
+				"ProductoCreateView"
+			],
+			[
+				"Produc",
+				"ProductoUpdateView"
+			],
+			[
 				"V",
 				"ValidationError"
 			],
 			[
 				"clean",
 				"cleaned_data"
-			],
-			[
-				"Produc",
-				"ProductoModelForm"
 			],
 			[
 				"Prod",
@@ -26,10 +30,6 @@
 			[
 				"Mul",
 				"MultiSlugMixin"
-			],
-			[
-				"Produ",
-				"ProductoDetailView"
 			],
 			[
 				"Producto",
@@ -167,8 +167,16 @@
 			"file": "src/productos/models.py",
 			"settings":
 			{
-				"buffer_size": 1587,
+				"buffer_size": 1584,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/productos/views.py",
+			"settings":
+			{
+				"buffer_size": 3168,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -362,7 +370,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -370,15 +378,42 @@
 					"file": "src/productos/models.py",
 					"settings":
 					{
-						"buffer_size": 1587,
+						"buffer_size": 1584,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								838,
-								838
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/productos/views.py",
+					"settings":
+					{
+						"buffer_size": 3168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								803,
+								803
 							]
 						],
 						"settings":

@@ -4,12 +4,13 @@ from django.views.generic.edit import CreateView, UpdateView
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 
-from comerciodigital.mixins import MultiSlugMixin, SubmitBtnMixin
+from comerciodigital.mixins import MultiSlugMixin, SubmitBtnMixin, LoginRequiredMixin
 
 from .forms import ProductoForm, ProductoModelForm
+from .mixins import ProductoManagerMixin
 from .models import Producto
 
-class ProductoCreateView(SubmitBtnMixin, CreateView):
+class ProductoCreateView(LoginRequiredMixin, SubmitBtnMixin, CreateView):
 	model = Producto 
 	form_class = ProductoModelForm
 	template_name = "form.html"
@@ -25,20 +26,13 @@ class ProductoCreateView(SubmitBtnMixin, CreateView):
 		return valid_data
 
 
-class ProductoUpdateView(SubmitBtnMixin, MultiSlugMixin, UpdateView):
+class ProductoUpdateView(ProductoManagerMixin, SubmitBtnMixin, MultiSlugMixin, UpdateView):
 	model = Producto 
 	form_class = ProductoModelForm
 	template_name = "form.html"
 	success_url = "/productos/"
 	submit_btn = "Actualizar Producto"
 
-	def get_object(self, *args, **kwargs):
-		user = self.request.user
-		obj = super(ProductoUpdateView, self).get_object(*args, **kwargs)
-		if obj.user == user or user in obj.managers.all():
-			return obj
-		else:
-			raise Http404
 
 class ProductoDetailView(MultiSlugMixin, DetailView):
 	model = Producto
