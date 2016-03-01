@@ -167,16 +167,8 @@
 			"file": "src/productos/models.py",
 			"settings":
 			{
-				"buffer_size": 1335,
+				"buffer_size": 1587,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/productos/forms.py",
-			"settings":
-			{
-				"buffer_size": 2443,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -378,15 +370,15 @@
 					"file": "src/productos/models.py",
 					"settings":
 					{
-						"buffer_size": 1335,
+						"buffer_size": 1587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								182,
-								182
+								838,
+								838
 							]
 						],
 						"settings":
@@ -396,33 +388,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/productos/forms.py",
-					"settings":
-					{
-						"buffer_size": 2443,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								979,
-								979
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 310.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

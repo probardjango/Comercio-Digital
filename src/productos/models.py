@@ -6,7 +6,7 @@ from django.utils.text import slugify
 
 
 class Producto(models.Model):
-	usuario = models.ForeignKey(settings.AUTH_USER_MODEL)
+	user = models.ForeignKey(settings.AUTH_USER_MODEL)
 	managers = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name="managers_productos", blank=True)
 	#user = models.OneToOneField(settings.AUTH_USER_MODEL)
 	titulo = models.CharField(max_length=120)
