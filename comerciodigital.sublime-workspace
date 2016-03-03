@@ -164,18 +164,18 @@
 	"buffers":
 	[
 		{
-			"file": "src/productos/models.py",
-			"settings":
-			{
-				"buffer_size": 1584,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/productos/views.py",
 			"settings":
 			{
-				"buffer_size": 3168,
+				"buffer_size": 3044,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/productos/mixins.py",
+			"settings":
+			{
+				"buffer_size": 494,
 				"line_ending": "Windows"
 			}
 		}
@@ -204,11 +204,11 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/forms.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/mixins.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/models.py",
+		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/forms.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/productos/views.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/urls.py",
-		"/C/Users/Karlita/Desktop/comerciodigital/src/comerciodigital/mixins.py",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/form_include.html",
 		"/C/Users/Karlita/Desktop/comerciodigital/README.md",
 		"/C/Users/Karlita/Desktop/comerciodigital/src/templates/productos/producto_detail.html",
@@ -375,18 +375,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/productos/models.py",
+					"file": "src/productos/views.py",
 					"settings":
 					{
-						"buffer_size": 1584,
+						"buffer_size": 3044,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								474,
-								474
+								1550,
+								1550
 							]
 						],
 						"settings":
@@ -395,25 +395,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/productos/views.py",
+					"file": "src/productos/mixins.py",
 					"settings":
 					{
-						"buffer_size": 3168,
+						"buffer_size": 494,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								803,
-								803
+								335,
+								335
 							]
 						],
 						"settings":

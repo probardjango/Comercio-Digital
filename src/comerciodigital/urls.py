@@ -24,7 +24,7 @@ urlpatterns = [
     url(r'^productos/(?P<pk>\d+)/editar/$', ProductoUpdateView.as_view(), name='producto_update_view'),
     url(r'^productos/(?P<slug>[\w-]+)/editar/$', ProductoUpdateView.as_view(), name='slug_producto_update_view'),
     url(r'^productos/(?P<pk>\d+)/$', ProductoDetailView.as_view(), name='producto_detail_view'),
-    url(r'^productos/(?P<slug>[\w-]+)/$', ProductoDetailView.as_view(), name='slug_producto_detail_view'),
+    url(r'^abc/(?P<slug>[\w-]+)/$', ProductoDetailView.as_view(), name='slug_producto_detail_view'),
 
 ]
 

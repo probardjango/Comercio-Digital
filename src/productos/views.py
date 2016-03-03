@@ -1,3 +1,4 @@
+from django.core.urlresolvers import reverse 
 from django.http import Http404
 from django.shortcuts import render, get_object_or_404
 from django.views.generic.edit import CreateView, UpdateView
@@ -14,7 +15,7 @@ class ProductoCreateView(LoginRequiredMixin, SubmitBtnMixin, CreateView):
 	model = Producto 
 	form_class = ProductoModelForm
 	template_name = "form.html"
-	success_url = "/productos/crear/"
+	# success_url = "/productos/crear/"
 	submit_btn = "Crear Producto"
 
 	def form_valid(self, form):
@@ -24,6 +25,9 @@ class ProductoCreateView(LoginRequiredMixin, SubmitBtnMixin, CreateView):
 		
 		form.instance.managers.add(user)
 		return valid_data
+
+	# def get_success_url(self):
+	# 	return reverse("producto_list_view")
 
 
 class ProductoUpdateView(ProductoManagerMixin, SubmitBtnMixin, MultiSlugMixin, UpdateView):
